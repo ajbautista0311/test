@@ -139,25 +139,20 @@ export class FacturaController {
  */
 var xmlres = builder.buildObject(xmlsolicitud);
 //console.log(xmlres);
-  request({har: {
-    url: 'https://www.mysuitetest.com/mx.com.fact.wsfront/FactWSFront.asmx',
-    method: 'POST',
-    headers: [
-      {
-        name: 'content-type',
-        value: 'text/xml'
-      }
-    ],
-    form: {
-      mimeType: 'text/xml',
-      params: xmlres
+request({
+  url: 'https://www.mysuitetest.com/mx.com.fact.wsfront/FactWSFront.asmx',
+  method: 'POST',
+  headers:
+    {
+      'Content-Type' : 'text/xml'
     }
-  }},
-  function(err:any,httpResponse:any,body:any){
-    if(err) throw err;
-
-    console.log(body);
-    });
+  ,
+  body: xmlsolicitud
+},
+function(err:any,httpResponse:any,body:any){
+  if(err) console.log(err);
+  console.log(body);
+  });
 
     /* var express = require('express');
     var app = express();
