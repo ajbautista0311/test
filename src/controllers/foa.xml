@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<fx:FactDocMX    xsi:schemaLocation="http://www.mysuitemex.com/fact/schema/fx_2010_f.xsd"
+    xmlns:fx="http://www.fact.com.mx/schema/fx" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <fx:Version>7</fx:Version>
+    <fx:Identificacion>
+        <fx:CdgPaisEmisor>MX</fx:CdgPaisEmisor>
+        <fx:TipoDeComprobante>TRASLADO</fx:TipoDeComprobante>
+        <fx:RFCEmisor>AAA010101AAA</fx:RFCEmisor>
+        <fx:RazonSocialEmisor>AAA SA DE CV</fx:RazonSocialEmisor>
+        <fx:Usuario>AAA010101AAAUser</fx:Usuario>
+        <fx:LugarExpedicion>03100</fx:LugarExpedicion>
+    </fx:Identificacion>
+    <fx:Procesamiento>
+        <fx:Dictionary name="email">
+            <fx:Entry k="from" v="ACCOUNT_OWNER"/>
+            <fx:Entry k="to" v="ivy.angeles@mysuitemex.com"/>
+            <fx:Entry k="cc" v="gustavo.davila@mysuitemex.com"/>
+        </fx:Dictionary>
+    </fx:Procesamiento>
+    <fx:Emisor>
+        <fx:DomicilioFiscal>
+            <fx:Calle>MATIAS ROMERO</fx:Calle>
+            <fx:NumeroExterior>216</fx:NumeroExterior>
+            <fx:NumeroInterior>105</fx:NumeroInterior>
+            <fx:Colonia>DEL VALLE</fx:Colonia>
+            <fx:Municipio>BENITO JUAREZ </fx:Municipio>
+            <fx:Estado>CIUDAD DE MÉXICO</fx:Estado>
+            <fx:Pais>MEXICO</fx:Pais>
+            <fx:CodigoPostal>03100</fx:CodigoPostal>
+        </fx:DomicilioFiscal>
+        <fx:RegimenFiscal>
+            <fx:Regimen>601</fx:Regimen>
+        </fx:RegimenFiscal>
+    </fx:Emisor>
+    <fx:Receptor>
+        <fx:CdgPaisReceptor>MX</fx:CdgPaisReceptor>
+        <fx:RFCReceptor>LAN7008173R5</fx:RFCReceptor>
+        <fx:NombreReceptor>LAN S.A. DE C.V.</fx:NombreReceptor>
+        <fx:Domicilio>
+            <fx:DomicilioFiscalMexicano>
+                <fx:Calle>PAITA</fx:Calle>
+                <fx:NumeroExterior>213</fx:NumeroExterior>
+                <fx:NumeroInterior>33</fx:NumeroInterior>
+                <fx:Localidad>G.A.M.</fx:Localidad>
+                <fx:Referencia>PARQUE</fx:Referencia>
+                <fx:Colonia>LINDAVISTA</fx:Colonia>
+                <fx:Municipio>GUSTAVO A. MADERO</fx:Municipio>
+                <fx:Estado>CIUDAD DE MÉXICO</fx:Estado>
+                <fx:Pais>MEXICO</fx:Pais>
+                <fx:CodigoPostal>13131</fx:CodigoPostal>
+            </fx:DomicilioFiscalMexicano>
+        </fx:Domicilio>
+        <fx:UsoCFDI>G03</fx:UsoCFDI>
+    </fx:Receptor>
+    <fx:Conceptos>
+        <fx:Concepto>
+            <fx:Cantidad>1</fx:Cantidad>
+            <fx:ClaveUnidad>H87</fx:ClaveUnidad>
+            <fx:UnidadDeMedida>PIEZA</fx:UnidadDeMedida>
+            <fx:ClaveProdServ>83112403</fx:ClaveProdServ>
+            <fx:Descripcion>Circuitos de telecomunicaciones digitales punto a
+                punto</fx:Descripcion>
+            <fx:ValorUnitario>0</fx:ValorUnitario>
+            <fx:Importe>0.00</fx:Importe>
+        </fx:Concepto>
+    </fx:Conceptos>
+    <fx:Totales>
+        <fx:Moneda>MXN</fx:Moneda>
+        <fx:SubTotalBruto>0.00</fx:SubTotalBruto>
+        <fx:SubTotal>0.00</fx:SubTotal>
+        <fx:Total>0.00</fx:Total>
+        <fx:TotalEnLetra>CERO PESOS 00/100 M.N.</fx:TotalEnLetra>
+        <fx:FormaDePago>03</fx:FormaDePago>
+    </fx:Totales>
+    <fx:ComprobanteEx>
+        <fx:DatosDeNegocio>
+            <fx:Sucursal>ATE_CTE</fx:Sucursal>
+        </fx:DatosDeNegocio>
+    </fx:ComprobanteEx>
+</fx:FactDocMX>
