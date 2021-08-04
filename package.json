@@ -60,7 +60,7 @@
     "xml-parse-from-string": "^1.0.1",
     "xml2js": "^0.4.23",
     "xmldoc": "^1.1.2",
-    "xmldom": "^0.2.1"
+    "xmldom": "^0.6.0"
   },
   "devDependencies": {
     "@loopback/build": "^2.1.0",
